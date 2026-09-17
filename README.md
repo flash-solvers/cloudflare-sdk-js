@@ -28,7 +28,7 @@ const solver = new CloudflareSolver({
   proxy: 'http://user:pass@host:port',
 });
 
-const result = await solver.solve('https://shop.axs.com/');
+const result = await solver.solve('https://example.com/');
 console.log('cf_clearance:', result.clearance);
 console.log(result.cookies);   // all cookies for the solved URL
 console.log(result.userAgent); // send this with the cookies
@@ -73,7 +73,7 @@ All errors except `TLSError` extend `CloudflareError`.
 Each retry uses a fresh session, because Cloudflare keeps rejecting a session that failed once.
 A proxy IP that keeps failing is usually flagged; rotate it.
 
-## Supported sites and pricing
+## Pricing
 
-See the [Flash Solvers docs](https://docs.flashsolvers.com/#cloudflare-overview).
+See the [Flash Solvers docs](https://docs.flashsolvers.com/#cloudflare-overview) for pricing and the full API reference.
 You are charged once per solve that reaches the final form, never for failures.

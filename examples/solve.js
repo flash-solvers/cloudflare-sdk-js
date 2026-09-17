@@ -1,6 +1,6 @@
 // Solve a Cloudflare challenge and print the cf_clearance cookie.
 //
-//   FLASH_API_KEY=... node examples/solve.js https://shop.axs.com/
+//   FLASH_API_KEY=... node examples/solve.js https://example.com/
 
 const { CloudflareSolver } = require('..');
 
