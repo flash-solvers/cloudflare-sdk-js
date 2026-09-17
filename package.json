@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/flash-solvers/cloudflare-sdk-js.git"
   },
-  "homepage": "https://flashsolvers.com/",
+  "homepage": "https://docs.flashsolvers.com/",
   "keywords": [
     "cloudflare",
     "cf_clearance",
