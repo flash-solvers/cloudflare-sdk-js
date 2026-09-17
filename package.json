@@ -1,0 +1,28 @@
+{
+  "name": "@flash-solvers/cloudflare",
+  "version": "0.1.0",
+  "description": "Solve the Cloudflare WAF challenge with the Flash Solvers API",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "koffi": "^3.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flash-solvers/cloudflare-sdk-js.git"
+  },
+  "homepage": "https://flashsolvers.com/",
+  "keywords": [
+    "cloudflare",
+    "cf_clearance",
+    "flash-solvers"
+  ]
+}
